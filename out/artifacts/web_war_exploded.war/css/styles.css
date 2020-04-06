@@ -1,0 +1,7 @@
+@media print {
+  h1 {
+    color: #000;
+    background-color: #fff;
+
+  }
+}

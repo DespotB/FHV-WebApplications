@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/background_navigationbar.css"></link>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!--Cookie-->
+  <script src="js/giveCookie.js"></script>
+  <meta http-equiv="Cache-control" content="no-cache">
+
+  <title>Guestbook</title>
+  <style>
+    ol {
+      top: 250px;
+    }
+  </style>
+</head>
+
+
+<body>
+<a href="home.html">
+  <div class="image-blurred-edge-logo"></div>
+  <img src="img/PhotoFunia-1583828295.jpg" alt="Logo">
+</a>
+
+<div class="active">
+  <ul style="border: #111111">
+    <li style="border-bottom: #111111"><a href="./asteroids.html">Play Asteroids</a></li>
+    <br/>
+    <li style="border-bottom: #111111"><a href="home.html">Home</a></li>
+    <li style="border-bottom: #111111"><a href="./Gamecube.html">Gamecube</a>
+    <li style="border-bottom: #111111"><a href="./Nintendo64.html">Nintendo 64</a></li></li>
+    <li style="border-bottom: #111111"><a href="./404.html">SEGA</a></li>
+    <li style="border-bottom: #111111"><a href="./404.html">Gameboy Color</a></li>
+    <li style="border-bottom: #111111"><a href="./registration.html">Registrieren</a></li>
+    <br/>
+    <li style="border-bottom: #111111"><a href="./bild.html">BILD</a></li>
+    <li style="border-bottom: #111111"><a href="./guestbook.html">Guestbook</a></li>
+  </ul>
+</div>
+
+
+<form name='guestbook' action="guestbook"  method="post" >
+  <ol>
+    <li><label for="name">Name:</label></li>
+    <li><input type="text" id="name" name="name" size="50"/></li>
+    <li><label for="mail">Email:</label></li>
+    <li><input type="text" id="mail" name="mail" size="50"/></li>
+    <li><label for="comment">Kommentar:</label></li>
+    <li><textarea name="comment" id="comment"></textarea></li>
+    <li><input type="submit" name="submit" value="Submit"/><input type="reset" name="reset" value="Reset"/></li>
+  </ol>
+</form>
+</body>
+</html>

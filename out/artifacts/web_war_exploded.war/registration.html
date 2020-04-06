@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mailto="http://www.w3.org/1999/xhtml">
+<head>
+  <!--Cookie-->
+  <script src="js/giveCookie.js"></script>
+  <meta http-equiv="Cache-control" content="no-cache">
+
+  <link rel="stylesheet" href="css/background_navigationbar.css"></link>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="js/registration.js"></script>
+  <meta name="Registration-Retro-Games" charset="UTF-8" content="Um bei Suchmaschinen gut gefunden zu werden gibt es micht">
+  <meta name="keywords" content="Für Suchmaschinen, ist aber depricated bzw. wird nicht mehr von suchmaschinen verwendet".
+  <title>Title</title>
+  <style>
+    ol {
+      top: 250px;
+    }
+  </style>
+</head>
+
+<body>
+<!-- Navigation Bar and Logo -->
+<a href="home.html">
+  <div class="image-blurred-edge-logo"></div>
+  <img src="img/PhotoFunia-1583828295.jpg" alt="Logo">
+</a>
+
+<div class="active">
+  <ul style="border: #111111">
+    <li style="border-bottom: #111111"><a href="./asteroids.html">Play Asteroids</a></li>
+    <br/>
+    <li style="border-bottom: #111111"><a href="home.html">Home</a></li>
+    <li style="border-bottom: #111111"><a href="./Gamecube.html">Gamecube</a>
+    <li style="border-bottom: #111111"><a href="./Nintendo64.html">Nintendo 64</a></li>
+    </li>
+    <li style="border-bottom: #111111"><a href="./404.html">SEGA</a></li>
+    <li style="border-bottom: #111111"><a href="./404.html">Gameboy Color</a></li>
+    <li style="border-bottom: #111111"><a href="./registration.html">Registrieren</a></li>
+
+    <br/>
+    <li style="border-bottom: #111111"><a href="mailto:despot.bitschnau@students.fhv.at/">Contact</a></li>
+  </ul>
+</div>
+
+<br><br><br><br>
+<form name='registration' onsubmit="return formValidation()" action="mailto:dbi4329@students.fhv.at"  method="post" >
+  <ol>
+    <li><label for="vorname">Vorname:</label></li>
+    <li><input type="text" id="vorname" name="vorname" size="50"/></li>
+    <li><label for="nachname">Nachname:</label></li>
+    <li><input type="text" id="nachname" name="nachname" size="50"/></li>
+    <li><label for="address">Address:</label></li>
+    <li><textarea name="address" id="address"></textarea></li>
+    <li><label for="country">Country:</label></li>
+    <li><select id="country" name="country">
+      <option selected="" value="Default">(Please select a country)</option>
+      <option value="AUT">Austria</option>
+      <option value="GER">Germany</option>
+      <option value="SWI">Swiss</option>
+      <option value="OTH">other</option>
+    </select></li>
+    <li><label for="pass">Password:</label></li>
+    <li><input type="password" id="pass" name="pass" size="12"/></li>
+    <li><label for="pass2">Confirm Password:</label></li>
+    <li><input type="password" id="pass2" name="pass2" size="12"/></li>
+    <li><label for="userid">Prefered User Id:</label></li>
+    <li><input type="text" id="userid" name="userid" size="12"/></li>
+    <li><label for="email">Email:</label></li>
+    <li><input type="text" id="email" name="email" size="50"/></li>
+    <li><label id="gender">Sex:</label></li>
+    <li><input type="radio" name="gender" value="Male"/><span>Male</span></li>
+    <li><input type="radio" name="gender" value="Female"/><span>Female</span></li>
+    <li><input type="radio" name="gender" value="Other"/><span>Other</span></li>
+
+    <li><label>User Category:</label></li>
+    <li><input type="checkbox" name="mCustomer" value="customer" /><span>Mature Customer</span></li>
+    <li><input type="checkbox" name="cCustomer" value="customer" /><span>Child Customer</span></li>
+    <li><input type="checkbox" name="worker" value="worker" /><span>Worker</span></li>
+    <li><input type="checkbox" name="admin" value="admin"/><span>Admin</span></li>
+
+    <li><input type="submit" name="submit" value="Submit"/><input type="reset" name="reset" value="Reset"/></li>
+
+  </ol>
+</form>
+
+
+</body>
+</html>

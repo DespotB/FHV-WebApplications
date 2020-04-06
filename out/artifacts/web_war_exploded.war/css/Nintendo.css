@@ -1,0 +1,78 @@
+table, th, td, tr {
+  border: 1px solid black;
+  text-align: center;
+  alignment: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, table, tr, button {
+  text-align: center;
+  alignment: center;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 130px;
+  width: 120px;
+  background-color: #a6029e;
+  height: 100%; /* Fullheight */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+
+}
+ul :hover {
+  background-color: #0180ff;
+  color: white;
+}
+.text-shadow-5 {
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 40px #ff00de, 0 0 70px #ff00de;
+}
+img {
+  position:fixed;
+  left:0;
+  top:0;
+  width: 120px;
+  height: 130px;
+  z-index: auto;
+}
+body{
+  margin: 0px;
+  background-image: url('../img/cyberpunk-synthwave-bladerunner-80s-nostalgia-playlist-1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+table, th, td {
+  border: 1px solid #ffffff;
+}
+p, h1, h2, h3, h4, h5, h6, ul, ol, table, tr, button, a {
+  text-align: center;
+  alignment: center;
+  align-items: center;
+  color: white;
+}
+.image-blurred-edge-logo {
+  width: 120px;
+  height: 130px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 4px 4px #1a0322 inset;
+  z-index: 20;
+}
+
+.image-blurred-border {
+  height: 100%;
+  width: 120px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 0 0 4px 8px #1a0322 inset;
+  z-index: 20;
+}
